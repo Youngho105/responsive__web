@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Agency</title>
+  <link rel="stylesheet" href="./build/css/style.css">
+  <script src="https://kit.fontawesome.com/a1e9a9da77.js" crossorigin="anonymous"></script>
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <div class="brandAndToggleBtn">
+        <a class="brand" href="index.html">Bootstrap</a>
+        <button class="btn__navbar"><i class="fas fa-bars"></i></button>
+        <span class="showNav"><i class="fas fa-arrow-down"></i></span>
+      </div>
+      <ul class="navbar">
+        <li><a href="#"><i class="fas fa-home"></i></a></li>
+        <li><a href="#">Scaffolding</a></li>
+        <li><a href="#">Base CSS</a></li>
+        <li><a href="#">Components</a></li>
+        <li><a href="#">Javascript</a></li>
+        <li><a class="dropdown__toggle" data-toggle="dropdown" href="#"><span>TM add-ons</span><b><i
+                class="fas fa-sort-down"></i></b></a>
+          <ul class="navbarSub">
+            <li><a href="#">
+                Pages
+              </a>
+              <ul class="sub">
+                <li><a href="#">Under Construction</a></li>
+                <li><a href="" #>Intro Page</a></li>
+                <li><a href="#">404 Page</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Slider</a></li>
+            <li><a href="#">Lorem, ipsum dolor.</a></li>
+            <li><a href="#">Lorem, ipsum dolor.</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="slider">
+      <h1 class='brand'>
+        <a href="index.html">
+          <h3>travel</h3>
+          <span>Travel Agency</span>
+        </a>
+      </h1>
+      <div class="forResponsiveSlide">
+        <div class="slide__container">
+          <div class="slide">
+            <img src="/src/assets/img/slide1.jpg" class="firstChild" alt="1">
+            <img src="/src/assets/img/slide2.jpg" alt="2">
+            <img src="/src/assets/img/slide3.jpg" alt="3">
+            <img src="/src/assets/img/slide4.jpg" class="lastChild" alt="4">
+          </div>
+          <!-- controls -->
+          <button type="button" class="next"><i class="fas fa-arrow-right"></i></button>
+          <button type="button" class="prev"><i class="fas fa-arrow-left"></i></button>
+          <ul class="pagination">
+          </ul>
+          <select name="" id="" class="select__menu">
+            <option value="#">Navigate to...</option>
+            <option value="#">Home</option>
+            <option value="#">about</option>
+            <option value="#">--compony</option>
+            <option value="#">--team</option>
+            <option value="#">–––perspiciatis</option>
+            <option value="#">–––consectetur</option>
+            <option value="#">–––adipisci</option>
+            <option value="#">–––deserunt</option>
+            <option value="#">––news</option>
+            <option value="#">––directions</option>
+            <option value="#">––gallery</option>
+            <option value="#">services</option>
+            <option value="#">Blog</option>
+            <option value="#">Ipsum</option>
+            <option value="#">mail us</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="menu__Container">
+        <ul class="menu">
+          <li><a href="index.html">HOME<span></span> </a></li>
+          <li><a href="index.html">ABOUT<span><i class="dropdown fas fa-angle-down"></i></span> <span></span> </a>
+            <ul class="submenu">
+              <li class="secondLi"><a href="index.html">COMPANY</a></li>
+              <li class="sub__menu secondLi"><a href="index.html">TEAM <i class="right fas fa-arrow-right"></i></a>
+                <ul class="lastmenu">
+                  <li>lorem</li>
+                  <li>loremlorem</li>
+                  <li>lorem</li>
+                  <li>loremlorem</li>
+                  <li>lorem</li>
+                </ul>
+              </li>
+              <li class="secondLi"><a href="index.html">NEWS</a></li>
+              <li class="secondLi"><a href="index.html">DIRECTIONS</a></li>
+              <li class="secondLi"><a href="index.html">GALLERY</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html">SERVICES<span></span> </a></li>
+          <li><a href="index.html">BLOG<span></span> </a></li>
+          <li><a href="index.html">MAIL US<span></span> </a></li>
+        </ul>
+      </div>
+
+
+    </section>
+  </header>
+
+  <section class="container">
+    <div class="container__row">
+      <section class="directions">
+        <article class="span12 centerSlogan">
+          <p class="description1">TOP</p>
+          <p class="description2">directions</p>
+        </article>
+        <div class="direction__row">
+          <article class="span3 direction">
+            <div class="imgAndPrice">
+              <img src="./src/assets/img/slide1.jpg" alt="">
+              <div class="price">
+                <p>FROM</p>
+                <strong>
+                  <span>$</span>
+                  1`299
+                </strong>
+              </div>
+            </div>
+            <div class="caption">
+              <a href="#">
+                LOREM IPSUM
+              </a>
+            </div>
+          </article>
+
+          <article class="span direction">
+            <div class="imgAndPrice">
+              <img src="./src/assets/img/slide2.jpg" alt="">
+              <div class="price">
+                <p>FROM</p>
+                <strong>
+                  <span>$</span>
+                  999
+                </strong>
+              </div>
+            </div>
+            <div class="caption"><a href="#">DONEC PORTA</a></div>
+          </article>
+          <article class="span3 direction">
+            <div class="imgAndPrice">
+              <img src="./src/assets/img/slide3.jpg" alt="">
+              <div class="price">
+                <p>FROM</p>
+                <strong>
+                  <span>$</span>
+                  1`799
+                </strong>
+              </div>
+            </div>
+            <div class="caption"><a href="#">FUSCE FEUGIAT</a></div>
+          </article>
+
+          <article class="span3 direction">
+            <div class="imgAndPrice">
+              <img src="./src/assets/img/slide4.jpg" alt="">
+              <div class="price">
+                <p>FROM</p>
+                <strong>
+                  <span>$</span>
+                  1`299
+                </strong>
+              </div>
+            </div>
+            <div class="caption"><a href="#">CONSECTETUER</a></div>
+          </article>
+        </div>
+
+      </section>
+
+      <section class="info">
+        <article class="span3-info">
+          <h1>WELCOME</h1>
+          <h5>Consectetuer adipist lacean.</h5>
+          <p>
+            Nummy nrerit uris. Pha sellrtsce scipitvarius mi. Cum sociistoque pentibus et magnis diarturtots nascetur
+            rimulug maleada odiorbi dio gravida atcurus necuus a lorem.
+          </p>
+          <button type="button">READ MORE</button>
+        </article>
+        <article class="span3-info">
+          <h1>WHAT WE DO</h1>
+          <h5>Lorem ipsum dolor sit amet.</h5>
+          <p>
+            Cum sociistoque pentibus et magnis diarturtots nascetur rimulug maleada odiorbi dio gravida atcurus necuus a
+            loreaecenas tristiqui ltrices pharetra gna. Pha sellrtsce scipitvarius mi.
+          </p>
+          <button type="button">READ MORE</button>
+        </article>
+        <article class="span3-info">
+          <h1>WHAT`S NEW</h1>
+          <h5>Vestibulum libero nisl.</h5>
+          <p>
+            Nummy nrerit uris. Pha sellrtsce scipitvarius mi. Cum sociistoque pentibus et magnis diarturtots nascetur
+            rimulug maleada odiorbi dio gravida atcurus necuus a lorem.
+          </p>
+          <button type="button">READ MORE</button>
+        </article>
+        <article class="span3-info">
+          <h1>WHY US</h1>
+          <h5>Vestibulum ante ipsum prim. </h5>
+          <p>
+            Bascetur rimulug maleada odiorbi dio gravida atcurus necuus a loremaecenas tristiqori ac sem. Duis ultrices
+            pharetra gna. Donec accumsan malesuada ornec sit amet eros.
+          </p>
+          <button type="button">READ MORE</button>
+        </article>
+      </section>
+
+      <section class="historyAndFeedback">
+        <article class="span6-history">
+          <h4>OUR HISTORY</h4>
+          <ul>
+            <li>
+              <div class="text">
+                <a href="#">Lorem ipsum dolor sit amet consectetue.</a>
+                <p>
+                  Nummy nrerit uris. Pha sellrtsce scipitvarius mi. Cum sociistoque pentibus et magnis diarturtots
+                  nascetur
+                  rimulug maleada odiorbi dio gravida atcurus necuus a lorem.Maecenas tristique ori ac sem.
+                </p>
+              </div>
+              <div class="date">
+                <time datetime="">July 15, 2005</time>
+                <p>In at neque non</p>
+              </div>
+            </li>
+            <li>
+              <div class="text">
+                <a href="#">Consectetuer adipist lacean.</a>
+                <p>
+                  Nummy nrerit uris. Pha sellrtsce scipitvarius mi. Cum sociistoque pentibus et magnis diarturtots
+                  nascetur
+                  rimulug maleada odiorbi dio gravida atcurus necuus a lorem.Maecenas tristique ori ac sem.
+                </p>
+              </div>
+              <div class="date">
+                <time datetime="">May 18, 2013</time>
+                <p>Nullam metus</p>
+              </div>
+            </li>
+          </ul>
+          <a class="read" href="#">READ ME</a>
+        </article>
+        <article class="span6-feedback">
+          <h4>FEEDBACK</h4>
+          <form action="">
+            <input type="text" value="Name" required>
+            <input type="email" value="Email" required>
+            <textarea required>Message</textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </article>
+      </section>
+    </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <h1>travel</h1>
+    <span>TRAVEL © 2013 • <a href="#">PRIVACY POLICY</a></span>
+    <button class="goToTop">
+      goToTop!
+    </button>
+  </footer>
+</body>
+
+</html>

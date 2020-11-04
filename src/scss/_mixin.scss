@@ -1,0 +1,42 @@
+@import "_variables.scss";
+
+@mixin borderBottom {
+  border-bottom: 1px solid #25231f;
+};
+
+@mixin borderRight {
+  border-right: 1px solid #25231f;
+}
+
+@mixin readButton {
+  transition: color 200ms linear;
+  font-size: $font__micro;
+  color: $special__color;
+  &:hover {
+    color: $white__color;
+  }
+};
+
+@mixin input {
+  padding: 8px 15px 8px 11px;
+  background-color: #282722;
+  color: #A4A79D;
+  width: 100%;
+  margin-bottom: 0.1px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+@mixin colorBgTransition {
+  transition: color 300ms ease;
+  transition: background-color 300ms ease;
+}
+
+@mixin submenuPadding {
+  padding: 45px 20px;
+};
+
+@mixin gridColumns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10.375rem, 1fr));
+}
